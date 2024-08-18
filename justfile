@@ -32,3 +32,6 @@ lint:
   cargo clippy -- --deny warnings
   cargo shear
   taplo format --check
+
+learn_rust:
+  cd crates/learn_rust && cargo run

@@ -1,13 +1,18 @@
-[package]
-edition = "2021"
-license = "MIT"
-name    = "rust-starter"
-version = "0.0.0"
+[workspace]
+members  = ["./crates/*"]
+resolver = "2"
 
-[dependencies]
+[workspace.package]
+edition    = "2021"
+license    = "MIT"
+name       = "rust-bootcamp"
+repository = "https://github.com/rustaceans-on-beach/rust-bootcamp"
+version    = "0.0.0"
 
-[dev-dependencies]
+[workspace.dependencies]
+
+[workspace.dev-dependencies]
 rusty-hook = "^0.11.2"
 
-[package.metadata.cargo-shear]
+[workspace.package.metadata.cargo-shear]
 ignored = ["rusty-hook"]

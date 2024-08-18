@@ -1,0 +1,5 @@
+[package]
+edition.workspace    = true
+name                 = "learn_rust"
+repository.workspace = true
+version              = "0.0.0"
