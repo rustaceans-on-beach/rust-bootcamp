@@ -2,8 +2,6 @@
 
 [Rust Bootcamp](https://u.geekbang.org/subject/rust)
 
-A template for starting new Rust projects.
-
 ## Toolchains 🛠️
 
 - [just](https://github.com/casey/just) - Task runner
