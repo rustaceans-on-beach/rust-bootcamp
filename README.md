@@ -1,4 +1,6 @@
-# Rust Starter 🦀
+# Rust Bootcamp 🦀
+
+[Rust Bootcamp](https://u.geekbang.org/lesson/659)
 
 A template for starting new Rust projects.
 
