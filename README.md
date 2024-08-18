@@ -1,6 +1,6 @@
 # Rust Bootcamp 🦀
 
-[Rust Bootcamp](https://u.geekbang.org/lesson/659)
+[Rust Bootcamp](https://u.geekbang.org/subject/rust)
 
 A template for starting new Rust projects.
 
