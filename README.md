@@ -18,4 +18,4 @@ just setup
 - [rusty-hook](https://github.com/swellaby/rusty-hook) - Git hooks manager
 - [cargo-shear](https://github.com/Boshen/cargo-shear) - Check unused dependencies
 - [taplo](https://github.com/tamasfe/taplo) - Toml formatter
-- [cargo-nextext](https://github.com/nextest-rs/nextest) - Test runner
+- [cargo-nextest](https://github.com/nextest-rs/nextest) - Test runner
