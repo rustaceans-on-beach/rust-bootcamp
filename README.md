@@ -2,6 +2,12 @@
 
 [Rust Bootcamp](https://u.geekbang.org/subject/rust)
 
+## Setup 🚀
+
+```bash
+just setup
+```
+
 ## Toolchains 🛠️
 
 - [just](https://github.com/casey/just) - Task runner
