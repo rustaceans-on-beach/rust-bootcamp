@@ -33,5 +33,5 @@ lint:
   cargo shear
   taplo format --check
 
-learn_rust:
-  cd crates/learn_rust && cargo run
+run-space *args:
+  cargo run -p {{args}}
