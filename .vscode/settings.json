@@ -1,7 +1,11 @@
 {
     "cSpell.words": [
+        "addrs",
         "Bootcamp",
         "Frobnicate",
-        "RAII"
+        "RAII",
+        "reqwest",
+        "thiserror",
+        "tricoder"
     ]
 }
