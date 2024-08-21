@@ -19,6 +19,8 @@ enum Commands {
   Tricoder {
     #[arg()]
     target: String,
+    #[arg(short, long)]
+    write: Option<String>,
   },
 }
 
@@ -27,8 +29,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
   match &cli.command {
     Commands::Sha1Cracker => sha1_cracker::main(),
-    Commands::Tricoder { target } => {
-      tricoder::main(target).unwrap();
+    Commands::Tricoder { target, write: write_path } => {
+      tricoder::main(target, write_path).unwrap();
       Ok(())
     }
   }

@@ -12,5 +12,6 @@ rayon              = "1.10.0"
 reqwest            = { version = "0.12.7", features = ["json", "blocking"] }
 serde              = { version = "1.0.208", features = ["derive"] }
 sha1               = "0.10.6"
+spinners           = "4.1.1"
 thiserror          = "1.0.63"
 trust-dns-resolver = "0.23.2"
