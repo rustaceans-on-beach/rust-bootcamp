@@ -1,6 +1,7 @@
 use clap::{Parser, Subcommand};
 
 mod sha1_cracker;
+mod tricoder;
 
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
@@ -14,6 +15,11 @@ struct Cli {
 enum Commands {
   #[command(about = "Sha1 cracker")]
   Sha1Cracker,
+  #[command(about = "Tricoder")]
+  Tricoder {
+    #[arg()]
+    target: String,
+  },
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
@@ -21,5 +27,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
   match &cli.command {
     Commands::Sha1Cracker => sha1_cracker::main(),
+    Commands::Tricoder { target } => {
+      tricoder::main(target).unwrap();
+      Ok(())
+    }
   }
 }

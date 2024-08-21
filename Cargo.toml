@@ -9,8 +9,6 @@ name       = "rust-bootcamp"
 repository = "https://github.com/rustaceans-on-beach/rust-bootcamp"
 version    = "0.0.0"
 
-[workspace.dependencies]
-
 [workspace.dev-dependencies]
 rusty-hook = "^0.11.2"
 
