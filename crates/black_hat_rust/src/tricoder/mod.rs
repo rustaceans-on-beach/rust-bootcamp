@@ -41,7 +41,6 @@ pub fn main(target: &str, write_path: &Option<String>) -> Result<(), anyhow::Err
   });
 
   spinner.stop();
-  println!();
   println!("Scan complete! ✅");
 
   if let Some(path) = write_path {
