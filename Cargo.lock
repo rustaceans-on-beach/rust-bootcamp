@@ -154,8 +154,8 @@ dependencies = [
  "anyhow",
  "clap",
  "csv",
- "serde",
  "serde_json",
+ "serde_yaml",
 ]
 
 [[package]]
