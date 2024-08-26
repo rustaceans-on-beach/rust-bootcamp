@@ -1,0 +1,5 @@
+username,email,full_name,address,phone_number
+admin,admin@,Admin,1234 Admin St,123-456-7890
+user,user@,User,1234 User St,
+alice,alice@,Alice,1234 Alice St,123-456-7890
+john,john@,John,1234 John St,

@@ -3,6 +3,7 @@ members  = ["./crates/*"]
 resolver = "2"
 
 [workspace.package]
+authors    = ["Rustaceans on the Beach"]
 edition    = "2021"
 license    = "MIT"
 name       = "rust-bootcamp"
